@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02913A8B-2789-449F-AFBB-350B1C6751CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud.Devices.Api", "src\Crud.Devices.Api\Crud.Devices.Api.csproj", "{7BC94732-DABA-4793-BA47-25F7F1541702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud.Devices.Infrastructure", "src\Crud.Devices.Infrastructure\Crud.Devices.Infrastructure.csproj", "{F72016B6-8DE4-4613-9C2B-E9D7E27B41CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud.Devices.Domain", "src\Crud.Devices.Domain\Crud.Devices.Domain.csproj", "{CD121617-E83C-462F-BCF3-466F0F5D929B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BC94732-DABA-4793-BA47-25F7F1541702} = {02913A8B-2789-449F-AFBB-350B1C6751CC}
+		{F72016B6-8DE4-4613-9C2B-E9D7E27B41CA} = {02913A8B-2789-449F-AFBB-350B1C6751CC}
+		{CD121617-E83C-462F-BCF3-466F0F5D929B} = {02913A8B-2789-449F-AFBB-350B1C6751CC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC94732-DABA-4793-BA47-25F7F1541702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC94732-DABA-4793-BA47-25F7F1541702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC94732-DABA-4793-BA47-25F7F1541702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC94732-DABA-4793-BA47-25F7F1541702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72016B6-8DE4-4613-9C2B-E9D7E27B41CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72016B6-8DE4-4613-9C2B-E9D7E27B41CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72016B6-8DE4-4613-9C2B-E9D7E27B41CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72016B6-8DE4-4613-9C2B-E9D7E27B41CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD121617-E83C-462F-BCF3-466F0F5D929B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD121617-E83C-462F-BCF3-466F0F5D929B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD121617-E83C-462F-BCF3-466F0F5D929B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD121617-E83C-462F-BCF3-466F0F5D929B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
