@@ -1,0 +1,14 @@
+﻿services:
+  crud.devices.api:
+    image: crud.devices.api
+    build:
+      context: .
+      dockerfile: src/Crud.Devices.Api/Dockerfile
+      
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+
+
+  

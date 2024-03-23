@@ -9,7 +9,6 @@ public class DevicesRepository(IMongoDatabase database) : IDevicesRepository
 {
     private readonly IMongoCollection<DeviceEntity> _devices = database.GetCollection<DeviceEntity>("Devices");
 
-
     public async Task<Device> CreateDeviceAsync(Device device, CancellationToken cancellationToken)
     {
         var entity = device.MapToDeviceEntity();
@@ -30,7 +29,8 @@ public class DevicesRepository(IMongoDatabase database) : IDevicesRepository
         
         if(brand is not null)
             filter = Builders<DeviceEntity>.Filter.Regex(d => d.Brand,  new BsonRegularExpression(brand, "i"));
-        
+
+
         var devices = await _devices.Find(filter).ToListAsync(cancellationToken).ConfigureAwait(false);
         
         return devices?.Select(d => Device.Fill(d.Id, d.Name, d.Brand, d.CreationDate)).ToList() ?? [];
@@ -56,26 +56,6 @@ public class DevicesRepository(IMongoDatabase database) : IDevicesRepository
         
         var filter = Builders<DeviceEntity>.Filter.Eq(d => d.Id, id);
         var result = await _devices.UpdateOneAsync(filter, Builders<DeviceEntity>.Update.Combine(updates), cancellationToken: cancellationToken).ConfigureAwait(false);
-        return result.MatchedCount > 0;
-    }
-
-    public Task<bool> PatchDeviceAsync(string id, string? name, string? brand, CancellationToken cancellationToken)
-    {
-        var update = Builders<DeviceEntity>.Update.Combine();
-        
-        if(name is not null)
-            update.Set(d => d.Name, name);
-        
-        if(brand is not null)
-            update.Set(d => d.Brand, brand);
-
-        return UpdateDeviceAsync(id, update, cancellationToken);
-    }
-    
-    private async Task<bool> UpdateDeviceAsync(string id, UpdateDefinition<DeviceEntity> update, CancellationToken cancellationToken)
-    {
-        var filter = Builders<DeviceEntity>.Filter.Eq(d => d.Id, id);
-        var result = await _devices.UpdateOneAsync(filter, update, cancellationToken: cancellationToken).ConfigureAwait(false);
         return result.MatchedCount > 0;
     }
 }

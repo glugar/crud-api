@@ -6,12 +6,16 @@ public class UpdateDeviceValidator : AbstractValidator<UpdateDeviceCommand>
 {
     public UpdateDeviceValidator()
     {
+        RuleFor(x => x.Id)
+            .NotEmpty()
+            .WithMessage("Id is required. All fields must be represented.");
+        
         RuleFor(x => x.Brand)
-            .NotNull()
+            .NotEmpty()
             .WithMessage("Brand is required. All fields must be represented.");
 
         RuleFor(x => x.Name)
-            .NotNull()
+            .NotEmpty()
             .WithMessage("Name is required. All fields must be represented.");
         
         

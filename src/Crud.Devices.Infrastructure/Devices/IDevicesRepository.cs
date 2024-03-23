@@ -14,5 +14,4 @@ public interface IDevicesRepository
     
     Task<bool> UpdateDeviceAsync(string id, string? name, string? brand, CancellationToken cancellationToken);
     
-    Task<bool> PatchDeviceAsync(string id, string? name, string? brand, CancellationToken cancellationToken);
 }

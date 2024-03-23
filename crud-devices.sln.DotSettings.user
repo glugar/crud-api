@@ -1,0 +1,30 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\GonçaloLugar\.nuget\packages\fluentvalidation\11.9.0\lib\net8.0\FluentValidation.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=62e026af_002D4b5b_002D41e2_002Da88c_002D10d50501c8b3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Name_Should_Not_Be_Empty #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.CreateDevice.CreateDeviceValidationTests.Name_Should_Not_Be_Empty&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e2281929_002D4af0_002D4774_002Dbc31_002Dbb79be154e55/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Name_Should_Not_Be_Empty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.CreateDevice.CreateDeviceValidationTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.UpdateDeviceValidator.UpdateDeviceValidationTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.PatchDevice.PatchDeviceValidatorTests.At_Least_One_Of_The_Fields_Must_Be_Present&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.PatchDevice.PatchDeviceValidatorTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.UpdateDevice.UpdateDeviceValidationTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.CreateDevice.CreateDeviceHandlerTests.Handle_With_Valid_Command_Returns_Device&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.CreateDevice.CreateDeviceHandlerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.DeleteDevice.DeleteDeviceHandlerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.GetDeviceById.GetDeviceByIdHandlerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.PatchDevice.PatchDeviceHandlerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A18C2A29-2B98-4028-83E5-074131ABF8CC::net8.0::Crud.Devices.Api.Tests.Features.UpdateDevice.UpdateDeviceHandlerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::35E4F743-7DAB-4390-B03B-3BD4C59977F6::net8.0::Crud.Devices.Infrastructure.Tests.Devices.DeviceRepositoryTests.DeleteDevice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::35E4F743-7DAB-4390-B03B-3BD4C59977F6::net8.0::Crud.Devices.Infrastructure.Tests.Devices.DeviceRepositoryTests.CreateDevice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::35E4F743-7DAB-4390-B03B-3BD4C59977F6::net8.0::Crud.Devices.Infrastructure.Tests.Devices.DeviceRepositoryTests.GetDeviceById&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::35E4F743-7DAB-4390-B03B-3BD4C59977F6::net8.0::Crud.Devices.Infrastructure.Tests.Devices.DeviceRepositoryTests.GetDevicesByBrand&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::35E4F743-7DAB-4390-B03B-3BD4C59977F6::net8.0::Crud.Devices.Infrastructure.Tests.Devices.DeviceRepositoryTests.UpdateDevice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::35E4F743-7DAB-4390-B03B-3BD4C59977F6::net8.0::Crud.Devices.Infrastructure.Tests.Devices.DeviceRepositoryTests.PatchDevice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
